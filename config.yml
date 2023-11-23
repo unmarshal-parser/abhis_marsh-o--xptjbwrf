@@ -1,0 +1,14 @@
+database_type: postgres
+contract_type: regular
+enable_sakhi_columns: false
+abi:
+  path: contract.abi
+  events:
+  - name: Approval
+    fields:
+    - name: value
+      type: uint256
+      plugins:
+      - name: token
+        inputs:
+          contract_address: 0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37

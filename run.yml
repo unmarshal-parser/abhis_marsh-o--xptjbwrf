@@ -1,0 +1,11 @@
+eth_endpoint: "${ETH_ENDPOINT}"
+contract_address: "${CONTRACT_ADDRESS}"
+start_block: ${START_BLOCK}
+api_key: "${API_KEY}"
+parallel_calls_for_logs: ${PARALLEL_CALLS_FOR_LOGS}
+step_size: ${STEP_SIZE}
+
+postgres_config:
+  connection_string: "${CONNECTION_STRING}"
+  table_prefix: "${TABLE_PREFIX}"
+  max_connections: ${POSTGRES_MAX_CONNECTIONS}
